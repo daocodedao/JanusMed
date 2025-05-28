@@ -1,4 +1,8 @@
 
+
+# 原项目
+https://github.com/mindspore-lab/mindone
+
 <hr>
 
 <div align="center">
