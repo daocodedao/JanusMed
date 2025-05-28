@@ -1,9 +1,15 @@
-import sys
+import sys,os
 
 import numpy as np
 
 # pt_code_path = "/Users/Samit/Data/Work/HW/ms_kit/aigc/Janus"
 # sys.path.append(pt_code_path)
+
+sys.path.append(".")
+__dir__ = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.abspath(os.path.join(__dir__, "../../..")))  # for mindone
+
+
 import torch
 from janus.models.processing_vlm import VLChatProcessor
 from janus.models.vq_model import VQ_16
