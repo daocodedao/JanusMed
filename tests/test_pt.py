@@ -2,8 +2,8 @@ import sys
 
 import numpy as np
 
-pt_code_path = "/Users/Samit/Data/Work/HW/ms_kit/aigc/Janus"
-sys.path.append(pt_code_path)
+# pt_code_path = "/Users/Samit/Data/Work/HW/ms_kit/aigc/Janus"
+# sys.path.append(pt_code_path)
 import torch
 from janus.models.processing_vlm import VLChatProcessor
 from janus.models.vq_model import VQ_16
